@@ -1,0 +1,16 @@
+
+Estos son las directivas principales para definir imágenes de Docker. Ver la documentación para más detalle.
+
+- ARG --> define variables que se pueden pasar al hacer un docker build
+- RUN -->  ejecuta los comandos definidos en la capa actual, sobre la imagen actual.
+- FROM --> inicializa un build, y fija la "Base Image", es obligatorio dockerfile empieze con FROM
+- ENV --> crea una variable de entorno y la fija un valor. Persisten en el contenedor que se ejecuta
+- EXPOSE --> indica que el docker creado escucha en ese puerto tcp y/o udp.
+- VOLUME --> permite datos persistentes, crea volumen ( mount point ) desde el host nativo o de otros contendores.
+- CMD --> solo puede haber uno en un Dockerfile, permite ejecutar al iniciar una imagen. Pero según la documentación oficial, el uso principal de CMD es proveer de valores por defecto a un contenedor que se está ejecutando. Puede incluir el ejecutable, o no. Si no incluye hay que especificar un ENTRYPOINT.
+- ENTRYPOINT -->  permite configurar un contendor que se correrá como un ejecutable.
+- WORKDIR --> crea directorio de trabajo para los siguientes: RUN, CMD, ENTRYPOINT, COPY y ADD
+- ADD --> igual que COPY, pero añade URLs y puede extraer ficheros comprimidos.
+- COPY --> copia ficheros y directorios desde el origen y los añade en el destino del sist. ficheros de la imagen.
+- LABEL --> metadatos para la imagen en forma par "key-value"
+- SHELL --> permite sobreescribir el shell que se usará con RUN, y posiblemente otros
