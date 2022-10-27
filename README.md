@@ -7,4 +7,4 @@ Este es el repositorio compartido del curso.
 
 Describimos las carpetas brevemente:
 
-- **general**: contiene los ejercicios y pruebas del inicio del curso
+- general: contiene los ejercicios y pruebas del inicio del curso
