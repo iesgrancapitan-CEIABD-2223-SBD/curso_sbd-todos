@@ -1,4 +1,4 @@
-# Grado de Especialización en Inteligencia Artificial y BigData
+# GEIASBD. Módulo Sistemas de Big Data
 
 Este es el repositorio compartido del curso.
 
