@@ -11,4 +11,8 @@ Compuesto de las pruebas iniciales con google colab, con dos ficheros:
 
 ## **docker**:
 
-ejemplos que usamos en clase de Dockerfile y Compose 
+ejemplos que usamos en clase de Dockerfile y Compose
+
+## **matrices**
+
+ejemplo de uso de Numpy y matrices 
