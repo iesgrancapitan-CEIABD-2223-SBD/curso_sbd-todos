@@ -1,0 +1,36 @@
+PANDAS
+=====
+
+version:
+url:
+
+
+ESTRUCTURAS DE DATOS
+====================
+
+
+- SERIES: Es un array unidimensional ( o una matriz 1xn ó nx1 ), donde los elementos del array pueden ser (enteros, cadenas, reales, objetos Python, etc.). La dimensión de las etiquetas ( dimension axis label ) se les llama de forma general "index"
+
+De forma general se define:
+
+  s = pd.Series(data, index=index)
+
+en este ejemplo, "data" es un nparray, y se proporcionan lo index ( deben ser iguales al número de elementos en el array de data )
+
+  s = pd.Series(np.random.randn(5), index=["a", "b", "c", "d", "e"])
+
+si no se añade un index, Pandas genera uno de números enteros, empezando en cero.
+
+El comportamiento de Series es muy similar al de nparray, y es válido como tipo de dato en la mayoría de las funciones de Numpy ( hay excepciones, ver documentación )
+
+Se pueden referencias como si fuesen dict normales de Python, por ejemplo: s["d"]
+
+"Series" tb tiene un tipo de atributo llamado "name", por ejemplo: s = pd.Series(np.random.randn(5), name="something")  y se referencia mediate s.name 
+
+
+
+
+- DATAFRAME: 
+
+- 
+
