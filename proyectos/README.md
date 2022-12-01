@@ -5,7 +5,7 @@
 
    - **procesamiento tiempo real(?)**
   
-      - usar alguna cámara para extraer frames, que entrenen una red neuronal para detectar un patrón.
+      - PROYECTO 1: usar alguna cámara para extraer frames, que entrenen una red neuronal para detectar un patrón.
       
     
 
@@ -13,13 +13,14 @@
 
     - **procesamiento batch**: 
   
-      - extraer datos de una base de datos mariadb  en modo batch, y tratarlos. Después representarlos en un Dashboard
-        
+      - PROYECTO 2: extraer datos de una base de datos mariadb  en modo batch, y tratarlos. Después representarlos en un Dashboard
+      - PROYECTO 4: obtener datos para representarlos en serie temporal y hacer "forecasting" ( puede ser en el propio PROYECTO 2 )       
+ 
  - **datos semi-estructurados**:
 
     - **procesamiento en stream**:
  
-      - analizar twitter con texto y relaciones entre usuarios mediante grafos.
+      - PROYECTO 3: analizar twitter con texto y relaciones entre usuarios mediante grafos.
 
 
 # Herramientas básicas
