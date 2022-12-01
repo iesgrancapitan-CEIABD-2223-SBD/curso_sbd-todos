@@ -13,7 +13,7 @@
 
     - **procesamiento batch**: 
   
-      - extraer datos de una base de datos mariadb datos en modo batch.
+      - extraer datos de una base de datos mariadb datos en modo batch, y tratarlos. Después representarlos en un Dashboard
         
  - **datos semi-estructurados**:
 
