@@ -13,7 +13,7 @@
 
     - **procesamiento batch**: 
   
-      - extraer datos de una base de datos mariadb datos en modo batch, y tratarlos. Después representarlos en un Dashboard
+      - extraer datos de una base de datos mariadb  en modo batch, y tratarlos. Después representarlos en un Dashboard
         
  - **datos semi-estructurados**:
 
@@ -30,6 +30,7 @@
   - Jupyter server
   - ecosistema Hadoop
   - brokers de mensajeria ( Kakfa por ejemplo )
+  - bases de datos sql y nosql
 
 
 # Webs con datos para analizar
