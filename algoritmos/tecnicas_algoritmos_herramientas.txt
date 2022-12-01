@@ -1,0 +1,200 @@
+
+
+ del curso del CEIP
+===================
+
+métodos basados en IA ( machine learning ) para la minería de datos
+
+paradigmas
+===========
+
+paradigma analógico ( aprendizaje por analogía )
+
+paradigma inductivo
+
+             - arboles de decisión
+             - algoritmos de inducción pura
+             
+paradigma conexionista:
+
+              - redes neuronales artificiales
+              
+paradigma evolutivo
+
+              - algoritmos genéticos
+              - otros métodos de optimización
+              - colonias de insectos
+              - descenso estocástico del grandiente
+              
+ modelos gráficos probabilistas:
+ 
+               - bayesianos
+               - cadenas de Markov
+               - Filtros de Kalman
+               - redes de creencias
+               - máquinas de soporte vectorial ( SVM )
+               - metahurísticas 
+               
+               
+técnicas
+========
+
+de clustering
+===========
+ ( aprendizaje no supervisado ): consiste en agrupar los elementos de una colección en subconjuntos ( clases, categorías,clusters ), nítidos o borrosos, en base a su similitud. Es no supervisado por que a prior no se conocen las clases o categorías. Por tanto se centran en una "medida de similitud" entre elementos, hay muchas variantes:
+
+   - estadísticas
+   - distancias euclideas
+   - distancias vectoriales ( coseno )
+   - distancias borrosas
+   - ....
+ 
+ Ejemplos:
+ 
+ - paradigma conexionista
+ 
+   - redes neuronales artificiales: SOM ( Self Organized Maps, Mapas de Kohonen ). Toolbox de Matlab SOM, etc.
+   
+ - modelos estadísticos y probabilistas
+  
+    - k-means
+    - c-means
+    - K-nearest neighbours (KNN)
+    - Mean shift ( ventanas circulares con un centroide )
+    - Dirichlet process ( estocásticos basados en distribuciones de probabilidad )
+    - LDA ( Latent Direchlet Allocation )
+    - Modelos Gaussianos
+    - ...
+    
+- Extensiones basadas en Lógica Borras ( fuzzy logic )
+
+    - Fuzzy K-means
+    - Fuzzy c-means
+    - Isodata
+    - ...
+    
+  de clasificación
+  =================
+  
+  ( aprendizaje supervisado ), consisten en asignar una clase a un nuevo elemento en base a un conjunto de categorías previamente establecidas ( supervisado ). Se basan en un entrenamiento en base a ejemplos con la solución conocida ( supervisado ) para crear modelos que permitan clasificar los nuevos casos análogos:
+  
+  - paradigma inductivo:
+    
+       - arboles de decisión:
+                 - ID3
+                 - CART
+                 - C4.5
+                 - See5
+                 - Random Forest
+                 - ...
+  
+   - paradigma conexionista:
+            
+       - redes neuronales artificiales:
+                 - perceptrón multicapa ( con backpropagation )
+                 - convolutivas
+                 - neocognitrones
+                 - redes de hopfield
+                 - redes recurrentes
+                 - adaline
+                 - deep learning
+                 - ...  
+     
+     - métodos estadísticos y probabilistas
+                 - redes bayesianas
+                 - naive-bayes
+                 - máquinas de soporte vectorial (SVM )
+                 - metahurísticas
+                 
+                           
+      
+ 
+ del curso del ministerio
+ ========================
+      
+           
+           - regression algorithms
+           - instance-based algorithms ( aprendizaje basado en memoria )
+           - decision tree algorithms
+           - regularization algorithms
+           - bayesian algorithms
+           - ensemble algorithms
+           - artificial neural network algoritthms
+           - deep learning algo.
+           - dimensional reduction algo.
+           
+  
+  los más utilizados
+  
+           - linear regression
+               - regresión lineal multidimensional ( pertenece al campo de la estadística )
+               
+           - logistic regression
+               - binary logistic regression
+               - OLSR ( Ordinary Least Squares Regression )
+               - StepWise Regression
+               - MARS (Multivariate Adaptative Regression Spliness )
+               - LOESS ( Locally Estimated Scatterplot Smoothing )
+           - decision tree
+               - CART: Classification and Regression Tree  ( más popular )
+               - Iterative Dichotomiser ( ID3 )
+               - C4.5 and C5.0 ( different versions of a powerful approach )
+               - Chi-squared Automatic Interaction Detection ( CHAID )
+               - Decision Stump
+               - M5
+               - Conditional Decision Trees
+            - algoritmos basados en memoria:            
+               - SVM ( Support Vector Machines )        
+               - kNN ( k-Nearest Neighbor ) --> asigna la clase correspondiente a la mayoría de datos que lo rodean
+               - Learning Vector Quantization ( LVQ )
+               - Self-Organizing Map ( SOM )
+               - Locally Weighted Learning ( LWL ) 
+            - algoritmos de agrupación o "clustering"                     
+               - K-Means ( no supervisado ) cuando tenemos un montón de datos sin clasificar
+    
+           - Naive Bayes  
+           - Random Forest
+           - Dimensionality reduction algo.
+           - gradient Boosting algo.:
+                  - GBM
+                  - XGBoost
+                  - LightGBM
+                  - CatBoost
+           
+ 
+Series temporales
+==================
+
+analisis series temporales:
+
+- tendencias: método mínimos cuadrados
+              tendencias evolutivas
+              diferenciación estacional
+- predicción: alisadores exponenciales
+- interpolación: predecir datos faltantes
+
+
+arima --> https://es.wikipedia.org/wiki/Modelo_autorregresivo_integrado_de_media_m%C3%B3vil
+
+
+hacer "forecast" --> predecir serie temporal
+
+
+
+Detección de Anomalías
+=======================
+
+
+
+DE CIENCIAYDATOS.NET
+=====================
+
+- detección de anomalías ( trimmed k-means )
+         - autoencoders y PCA
+         - Isolation forest
+         - Attribute wise learning for scoring outliers (ALSO)
+
+
+- forecasting de series temporales:
+         - gradient boosting
+           
