@@ -30,9 +30,10 @@
   - python
   - R
   - Jupyter notebooks 
-  - ecosistema Hadoop
+  - ecosistema Hadoop, Spark
   - brokers de mensajeria ( Kakfa por ejemplo )
   - bases de datos sql y nosql
+  - Sistemas de representación gráfica ( Dashboards o cuadros de mando )
   - herramienta trabajo colaborativo ( tipo Basecamp o similar )
 
 
