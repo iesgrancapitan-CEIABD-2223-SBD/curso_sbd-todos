@@ -14,13 +14,13 @@
     - **procesamiento batch**: 
   
       - PROYECTO 2: extraer datos de una base de datos mariadb  en modo batch, y tratarlos. Después representarlos en un Dashboard
-      - PROYECTO 4: obtener datos para representarlos en serie temporal y hacer "forecasting" ( puede ser en el propio PROYECTO 2 )       
+      - PROYECTO 4: obtener datos para representarlos en serie temporal y hacer "forecasting" ( puede ser en el propio PROYECTO 2 ). En este proyecto usar Python y R para tratamiento de series temporales.       
  
  - **datos semi-estructurados**:
 
     - **procesamiento en stream**:
  
-      - PROYECTO 3: analizar twitter con texto y relaciones entre usuarios mediante grafos.
+      - PROYECTO 3: analizar twitter con texto y relaciones entre usuarios mediante grafos. ( mezcla de tipos de datos )
 
 
 # Herramientas básicas
@@ -28,10 +28,12 @@
   - Docker, Dockercompose
   - git
   - python
-  - Jupyter server
+  - R
+  - Jupyter notebooks 
   - ecosistema Hadoop
   - brokers de mensajeria ( Kakfa por ejemplo )
   - bases de datos sql y nosql
+  - herramienta trabajo colaborativo ( tipo Basecamp o similar )
 
 
 # Webs con datos para analizar

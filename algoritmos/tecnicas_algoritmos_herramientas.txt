@@ -167,12 +167,13 @@ Series temporales
 
 analisis series temporales:
 
-- tendencias: método mínimos cuadrados
+- tendencias: método mínimos cuadrados para unidimensinal o multidimensional
               tendencias evolutivas
               diferenciación estacional
 - predicción: alisadores exponenciales
 - interpolación: predecir datos faltantes
-
+- metodo arima
+- 
 
 arima --> https://es.wikipedia.org/wiki/Modelo_autorregresivo_integrado_de_media_m%C3%B3vil
 
@@ -181,8 +182,8 @@ hacer "forecast" --> predecir serie temporal
 
 
 
-Detección de Anomalías
-=======================
+Detección de Anomalías (outliners)
+=================================
 
 
 
@@ -197,4 +198,15 @@ DE CIENCIAYDATOS.NET
 
 - forecasting de series temporales:
          - gradient boosting
-           
+             
+
+
+
+
+
+Referencias
+==========
+
+
+- Forecasting: Principles and Practice ( tercera edición ): https://otexts.com/fpp3/
+                
