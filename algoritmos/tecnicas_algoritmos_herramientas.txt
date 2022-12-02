@@ -182,6 +182,15 @@ hacer "forecast" --> predecir serie temporal
 
 
 
+NPL(Natural Language Processing)
+================================
+
+Procesamiento del Lenguaje Natural
+
+
+- Codificador de Oración Universal de Google --> https://tfhub.dev/google/universal-sentence-encoder/4
+
+
 Detección de Anomalías (outliners)
 =================================
 
